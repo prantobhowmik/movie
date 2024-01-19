@@ -30,4 +30,4 @@ To run the eXplore app locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/prantobhowmik/eXplore.gitc
+   git clone https://github.com/prantobhowmik/movie.gitc
