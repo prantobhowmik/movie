@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const Movies = (movies) => {
+const Movies = (movies : any) => {
     const imgUrl= `https://image.tmdb.org/t/p/w500${movies.movie.poster_path}`;
     const title = movies.movie.title;
     const overview= movies.movie.overview;

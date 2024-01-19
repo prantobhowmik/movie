@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { BASE_URL } from './constants/Baseurl'
 import Movies from './components/Movies'
 
-async function searchMovies(query) {
+async function searchMovies(query : any) {
   try{
     const response = await fetch(`${BASE_URL}/search/movie?api_key=${process.env.NEXT_PUBLIC_API_KEY}&query=${encodeURIComponent(query)}`)
     return await response.json();
