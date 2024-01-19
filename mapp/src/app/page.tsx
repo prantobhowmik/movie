@@ -28,10 +28,10 @@ export default function Home() {
 
   console.log({movies})
   return (
-    <div className='min-h-screen bg-light_bg'>
-      <div className='flex items-center justify-center '>
-      <main className='items-center justify-center'>
-        <h1 className='text-2xl font-bold'>Explore Movies</h1>
+    <div className='flex flex-wrap items-center justify-center min-h-screen bg-light_bg'>
+      
+        <main className='items-center justify-center'>
+        <h1 className='text-2xl text-center font-bold'>eXplore</h1>
         <form onChange={handleSearch}>
           <input type='text' 
           value={query} 
@@ -41,8 +41,8 @@ export default function Home() {
           
         </form>
         
-      </main>
-      </div>
+        </main>
+      
       <div className='flex flex-wrap p-2 gap-x-4 gap-y-4 items-center justify-between '>
         {
             movies.map((movie)=>{
