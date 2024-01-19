@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import { useState } from 'react'
-import { BASE_URL } from './constants/page'
+import { BASE_URL } from './constants/Baseurl'
 import Movies from './components/Movies'
 
 async function searchMovies(query) {
