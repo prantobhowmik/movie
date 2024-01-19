@@ -19,7 +19,7 @@ export default function Home() {
 
   const [query, setQuery] = useState('');
   const [movies, setMovies] = useState([]);
-  async function handleSearch(e){
+  async function handleSearch(e : any){
     e.preventDefault();
     if (!query) return;
     const results = await searchMovies(query);
