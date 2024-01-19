@@ -2,11 +2,13 @@
 
 <div align="center">
   <img src="https://media2.giphy.com/media/3o7qE1YN7aBOFPRw8E/giphy.gif?cid=ecf05e47gorz8myggdemb4m3c1dc8h2b13pp9lyurrzhl0hy&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="eXplore Logo" width="300" height="200">
-</div>
+<hr>
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/prantobhowmik/eXplore.svg)](https://github.com/prantobhowmik/eXplore/issues)
-[![GitHub stars](https://img.shields.io/github/stars/prantobhowmik/eXplore.svg)](https://github.com/prantobhowmik/eXplore/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/prantobhowmik/movie.svg)](https://github.com/prantobhowmik/movie/issues)
+[![GitHub stars](https://img.shields.io/github/stars/prantobhowmik/movie.svg)](https://github.com/prantobhowmik/movie/stargazers)
+
+</div>
 
 ## Introduction
 
