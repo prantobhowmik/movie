@@ -26,21 +26,33 @@ export default function Home() {
     setMovies(results.results)
   }
 
-  
+  console.log({movies})
   return (
-    <div className='flex items-center justify-center min-h-screen bg-light_bg'>
-      <main className='items-center justify-between'>
-        <h1 className='text-2xl font-foldit font-bold'>Explore Movies</h1>
-        <form onClick={handleSearch}>
+    <div className='min-h-screen bg-light_bg'>
+      <div className='flex items-center justify-center '>
+      <main className='items-center justify-center'>
+        <h1 className='text-2xl font-bold'>Explore Movies</h1>
+        <form onChange={handleSearch}>
           <input type='text' 
           value={query} 
           onChange={(e)=>setQuery(e.target.value)}
           placeholder='search'
           className='bg-light_color text-center rounded-full hover:bg-bw_color outline-none placeholder:text-center'/>
-          <button type="submit" className='bg-light_color'>Explore</button>
+          
         </form>
-        <Movies movies={movies} handleMovie={() => null}/>
+        
       </main>
+      </div>
+      <div className='flex flex-wrap p-2 gap-x-4 gap-y-4 items-center justify-between '>
+        {
+            movies.map((movie)=>{
+                return(
+                    // eslint-disable-next-line react/jsx-key
+                    <Movies movie = {movie} />
+                )
+            })
+        }
+      </div>
     </div>
   )
 }
