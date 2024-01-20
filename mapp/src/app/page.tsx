@@ -26,7 +26,7 @@ export default function Home() {
     setMovies(results.results)
   }
 
-  console.log({movies})
+  
   return (
     <div className='flex flex-wrap items-center justify-center min-h-screen bg-light_bg'>
       
